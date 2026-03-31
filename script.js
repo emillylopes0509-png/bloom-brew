@@ -47,8 +47,8 @@ function mostrarLivro(tipo) {
     for (let i = 1; i <= nomes.length; i++) {
       html += `
         <div class="card">
-          <img src="capas/dark/${i}.jpg"
-               onerror="this.src='https://via.placeholder.com/200x300?text=Dark+${i}'">
+          <img src="Capas/escuro/${i}.jpg">                 
+           onerror="this.src='https://via.placeholder.com/200x300?text=Dark+${i}'">
 
           <div class="info">
             <h3>${nomes[i-1]} 🖤</h3>
